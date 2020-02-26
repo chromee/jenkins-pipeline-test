@@ -1,7 +1,7 @@
 node {
   stage 'メッセージの表示' 
-  sh 'echo Hello Pipeline.' 
+  echo 'echo Hello Pipeline.' 
   
   stage '日付の表示'
-  sh 'date'
+  echo 'date'
 }
